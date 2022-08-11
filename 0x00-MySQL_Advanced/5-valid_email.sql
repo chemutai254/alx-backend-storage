@@ -1,4 +1,5 @@
 -- Create triggers that resets the attribute when it changes
+delimiter
 CREATE trigger reset_valid 
 before update ON users
 for each row 
