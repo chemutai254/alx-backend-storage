@@ -1,2 +1,2 @@
 // Scripts that deletes all documents in a collection
-db.school.deleteMany({})
+db.school.update({}, {$unset: {name: "Holberton school"}}, {multi: true})
