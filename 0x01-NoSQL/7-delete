@@ -1,0 +1,2 @@
+// Scripts that deletes all documents in a collection
+db.school.deleteMany({})
