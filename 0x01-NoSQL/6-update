@@ -1,0 +1,2 @@
+// Script that updates a record in a collection
+db.school.update({address: "972 Mission street"})
