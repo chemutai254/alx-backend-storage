@@ -1,2 +1,2 @@
 // Script that lists all documents
-db.school.find({"school.name": "Holberton school"})
+db.school.find({"name": "Holberton school"})
